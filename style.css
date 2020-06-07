@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header-bar {
+    color: black;
+    height: 120px;
+    padding: 30px;
+}
+
+.header-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+/* main */
+
+#main {
+    width: 60%;
+    margin: 0 auto 30px;
+}
+
+.form-add {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.activity {
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 82%;
+    flex: 0 0 82%;
+    line-height: 1.5;   
+}
+
+.btn-submit {
+    background-color: blue;
+    color: white;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    max-width: 16.666667%;
+    flex: 0 0 16.666667%;
+    line-height: 1.5;   
+}
+
+/* css for li item */
+
+.list-group {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.item-li {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem 0.75rem 2rem;
+    background: #fcfcfc;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 6px 0 6px;
+    border-radius: 5px;
+}
+
+.item-li:last-child {
+    margin-bottom: 0;
+}
+
+.title-li {
+    margin-right: auto;
+    font-weight: 700;
+}
+
+.edit-btn {
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    color: #3c3c3c;
+    font-size: 0.8rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    background-color: white;
+}
+
+.remove-btn {
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    color: #3c3c3c;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: white;
+}
+
+/* footer */
+
+.footer-bar {
+    background-color: white;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.detail {
+    color: #8c8c8c;
+    text-align: center;
+    display: block;
+    font-size: 0.9rem;
+}

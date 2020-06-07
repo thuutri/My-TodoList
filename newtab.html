@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>TodoList</title>
+  </head>
+
+  <body>
+    <header class="header-bar">
+      <h1 class="header-title">#TODO LIST</h1>
+    </header>
+    <div id="main">
+      <form id="addForm" class="form-add">
+        <input
+          id="newItem"
+          type="text"
+          class="activity"
+          placeholder="Thing to do ..."
+        />
+        <input type="submit" class="btn-submit" value="Add" />
+      </form>
+      <ul id="itemList" class="list-group">
+        <!-- <li class="list-group-item list-group-item-action d-flex align-items-center">
+                <span class="mr-auto font-weight-bold">Item1</span>
+                <button class="edit-btn btn btn-primary btn-sm ml-2 mr-2">Edit</button>
+                <button class="remove-btn btn btn-danger btn-sm">Remove</button>
+            </li> -->
+      </ul>
+    </div>
+    <footer class="footer-bar">
+      <span class="detail">Copyright</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
