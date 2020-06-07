@@ -6,7 +6,7 @@ Finally, it is not too hard to implement but it is quite convenience. You can al
 
 <strong>Some images about my extension</strong>
 
-![UI when init](./images/init.png)
+![UI when init](https://github.com/thuutri/My-TodoList/blob/master/images/init.PNG)
 
-![UI when add some tasks](./images/tasks.png)
+![UI when add some tasks](https://github.com/thuutri/My-TodoList/blob/master/images/tasks.PNG)
 
